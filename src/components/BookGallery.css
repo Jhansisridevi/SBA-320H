@@ -1,0 +1,19 @@
+
+.home-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    overflow: hidden; 
+  }
+  .card-align {
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  .card-main{
+    background-color: rgb(255, 255, 255) blur;
+  }

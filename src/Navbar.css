@@ -1,0 +1,54 @@
+.navbar {
+  background-color: #acc0f7;
+  padding: 10px;
+  text-align: left;
+  position: fixed;
+  font-family: "Labrada", sans-serif;
+  font-size: larger;
+  font-weight: 600;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 1000;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+}
+
+.navbar-item {
+  margin: 0 10px;
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  margin: 0 15px;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+.navbar-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: #ad5707;
+  transform: scaleX(0); /* Initial state: line not visible */
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-item:hover {
+  color: #9e4802; /*on hover */
+  text-shadow: 0 0 10px #002a9e; /* Add glow effect on hover */
+}
+
+.navbar-item:hover::before,
+.navbar-item.active::before {
+  transform: scaleX(1);
+}
