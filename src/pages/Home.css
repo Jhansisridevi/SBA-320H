@@ -1,0 +1,23 @@
+.home-page {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+.hero-banner img {
+  margin-left: 20%;
+  width: 120%;
+}
+.cta-box p {
+  margin-left: 1%;
+  margin-right: 30%;
+  margin-top: 20%;
+  font-size: xx-large;
+  font-family: "Labrada", sans-serif;
+  color: #03045e;
+}
+.cta-box button {
+  margin-left: 22%;
+  margin-top: 0%;
+}
