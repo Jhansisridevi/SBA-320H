@@ -1,5 +1,5 @@
 import React from "react";
-import "./Bookpopup.css";
+import "./BookPopup.css";
 
 const BookPopup = ({ book, onClose }) => {
   return (
