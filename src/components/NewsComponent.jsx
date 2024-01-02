@@ -31,13 +31,6 @@ const NewsComponent = () => {
       description:
         "Exciting news for our digital readers! We've expanded our online library to bring you an even broader selection of e-books and audiobooks. Whether you prefer mystery, romance, or science fiction, our digital collection offers a plethora of titles for your reading pleasure. Access the digital library from the comfort of your home or on the go – your next adventure awaits at your fingertips!",
     },
-    {
-      id: 5,
-      image: "https://example.com/news3.jpg",
-      title: "Digital Library Expansion: Access Anytime, Anywhere",
-      description:
-        "Exciting news for our digital readers! We've expanded our online library to bring you an even broader selection of e-books and audiobooks. Whether you prefer mystery, romance, or science fiction, our digital collection offers a plethora of titles for your reading pleasure. Access the digital library from the comfort of your home or on the go – your next adventure awaits at your fingertips!",
-    },
   ];
 
   return (
