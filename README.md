@@ -17,6 +17,8 @@ Readify is a modern online library app built with Vite and React. It leverages t
 - **useReducer**: A React hook for managing state using the reducer pattern.
 - **useEffect**: A React hook for handling side effects, such as data fetching.
 
+Link to the App - https://main--effervescent-kulfi-3d172c.netlify.app/
+
 ## Getting Started
 
 To run the Readify app locally, follow these steps:
@@ -29,3 +31,4 @@ cd readify
 
 npm install
 npm run dev
+

@@ -29,12 +29,12 @@ const About = () => {
         discussions, and stay updated on literary events and author news.
         <h3>Our Vision</h3>
         We envision a world where the magic of storytelling knows no bounds.
-        Through [Your Library App Name], we aim to foster a love for reading,
+        Through Readify, we aim to foster a love for reading,
         ignite imaginations, and build bridges between people through the shared
         experience of a good book.
         <h3>Get Involved</h3>
         Whether you're a seasoned bibliophile or just starting your reading
-        journey, there's a place for you at [Your Library App Name]. Join us in
+        journey, there's a place for you at Readify. Join us in
         celebrating the joy of reading, exploring new narratives, and connecting
         with fellow book lovers.
         <h3>Thank you for being a part of our literary adventure!</h3>
