@@ -3,7 +3,6 @@ import axios from "axios";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./CarouselWithArrows.css";
 import BookPopup from "./BookPopup";
 import "./BookCarousel.css";
 
