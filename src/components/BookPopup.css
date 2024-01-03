@@ -6,12 +6,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #90e0ef;
+  background: #74a4fc;
 }
 .popup-content {
   font-family: "Labrada", sans-serif;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: rgb(0, 0, 0);
   text-align: center;
@@ -49,7 +49,7 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
   margin-top: 6%;
-  background: linear-gradient(#caf0f8, #0077b6);
+  background: linear-gradient(#caf0f8, #74a4fc);
 }
 .left-column {
   width: 100%;
